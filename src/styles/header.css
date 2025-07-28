@@ -1,0 +1,22 @@
+.extension-header{
+  height: 2rem;
+  width: 60%;
+   background-color: #fff;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   margin: 50px auto;
+   padding: 1rem;
+   border-radius: 1rem;
+}
+.extension-header img{
+  color: white;
+}
+
+.change-color{
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 2px solid rgba(239, 123, 81, 0.764);
+  border-radius: .6rem;
+}
