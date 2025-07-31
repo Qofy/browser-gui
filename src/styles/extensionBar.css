@@ -1,0 +1,56 @@
+.extension-bar{
+  height: 4rem;
+  width: 61%;
+  /* background-color: white; */
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   margin: 50px auto;
+   /* padding: 1rem; */
+   border-radius: 1rem;
+}
+
+.extension-activities{
+  display: flex;
+  flex-direction: row;
+  gap: .5rem;
+  align-items: center;
+}
+
+.btn{
+  border: none;
+  border-radius:1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.dark-theme .btn {
+  background-color: #213352;
+  color: #ffff;
+}
+
+.change-background{
+  background-color: rgb(199, 24, 24)!important;
+  color: white;
+   /* border: 2px solid rgba(239, 123, 81, 0.764);  */
+}
+.btn-all{
+height: 2.7rem;
+  width: 3.3rem;
+  background-color: #ffffff;
+}
+
+.btn-active{
+height: 2.7rem;
+  width: 4.3rem;
+  background-color: #ffffff;
+}
+
+.btn-inactive{
+height: 2.7rem;
+  width: 4.3rem;
+  background-color: #ffffff;
+}

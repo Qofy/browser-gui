@@ -5,13 +5,13 @@ import { useEffect, useState } from "react"
 import "../styles/header.css"
 
 function Header() {
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
-  const [theme, setTheme] = useState("dark"); 
-  useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth < 768);
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  // const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  const [theme, setTheme] = useState("light"); // Default to light theme
+  // useEffect(() => {
+  //   const handleResize = () => setIsMobile(window.innerWidth < 768);
+  //   window.addEventListener("resize", handleResize);
+  //   return () => window.removeEventListener("resize", handleResize);
+  // }, []);
 
   useEffect(() => {
     if (theme === "dark") {
@@ -21,8 +21,9 @@ function Header() {
     }
   }, [theme]);
 
-  const handleThemeToggle = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
+  const handleThemeToggle = (e) => {
+    e.preventDefault();
+    setTheme(theme === "light" ? "dark" : "light");
   };
 
   return (
