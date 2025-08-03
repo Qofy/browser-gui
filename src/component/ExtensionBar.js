@@ -1,5 +1,5 @@
 import "../styles/extensionBar.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 function ExtensionBar() {
   const [changeColor, setChangeColor] = useState("");
