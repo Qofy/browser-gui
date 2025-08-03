@@ -1,5 +1,5 @@
 .dashboard{
-  width: 61%;
+  width: 64%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, minmax(300px, 1fr)); 
@@ -9,7 +9,7 @@
 
 @media (max-width: 768px) {
   .dashboard {
-    width: 90%;
+    width: 29rem;
     grid-template-columns: 1fr; 
     align-items: center;
     justify-items: center;
