@@ -11,6 +11,11 @@
   
 }
 
+.dark-theme .dashboard-item {
+  background-color: #1e3255; 
+  color: #fff;
+}
+
 .dashboard-item-img{
   height: auto;
   margin-bottom: 2rem;
@@ -35,6 +40,9 @@
   font-size: 0.9rem;
   color: #555;
 }
+.dark-theme .dashboard-item-desc {
+  color: #aaaaaa; 
+}
 
 .dashboard-item-remove-btn{
   color: #000000;
@@ -43,7 +51,11 @@
   border-radius: 18px;
   cursor: pointer;
 }
-
+.dark-theme .dashboard-item-remove-btn {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background-color: #1e3255; 
+}
 .dashboard-item-remove-btn:hover{
   background-color: rgb(199, 24, 24);
   color: white;
