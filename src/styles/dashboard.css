@@ -4,6 +4,7 @@
   display: grid;
   grid-template-columns: repeat(3, minmax(300px, 1fr)); 
    gap: 1rem; 
+   margin-bottom: 1.5rem;
  
 }
 
